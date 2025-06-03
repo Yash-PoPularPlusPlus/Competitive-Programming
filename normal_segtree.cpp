@@ -1,5 +1,5 @@
 struct item {
-	ll add
+	ll add;
 };
  
 struct Seg {
