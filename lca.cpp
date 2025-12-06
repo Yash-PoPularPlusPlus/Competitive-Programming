@@ -10,7 +10,7 @@ void dfs(int v, int p){
     tin[v] = timer++;
     ft.pb(v);
     up[v][0] = p;
-    for (int i = 1; i <= L; i++)
+    for (int i = 1; i < L; i++)
         up[v][i] = up[up[v][i-1]][i-1];
  
     for (int u : adj[v]) {
